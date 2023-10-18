@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos de Django</title>
+    <style>
+        /* Estilo para la tabla */
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Estilo para el encabezado */
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comandos de Django</h1>
+    <table>
+        <tr>
+            <th>Comando</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>python manage.py startproject &lt;nombre_del_proyecto&gt;</td>
+            <td>Crea un nuevo proyecto de Django.</td>
+        </tr>
+        <tr>
+            <td>python manage.py startapp &lt;nombre_de_la_aplicación&gt;</td>
+            <td>Crea una nueva aplicación dentro del proyecto.</td>
+        </tr>
+        <tr>
+            <td>python manage.py runserver</td>
+            <td>Inicia el servidor de desarrollo para ejecutar la aplicación localmente.</td>
+        </tr>
+        <tr>
+            <td>python manage.py makemigrations</td>
+            <td>Crea archivos de migración para los cambios en los modelos.</td>
+        </tr>
+        <tr>
+            <td>python manage.py migrate</td>
+            <td>Aplica las migraciones pendientes a la base de datos.</td>
+        </tr>
+        <tr>
+            <td>python manage.py createsuperuser</td>
+            <td>Crea un superusuario para acceder al panel de administración.</td>
+        </tr>
+        <tr>
+            <td>python manage.py shell</td>
+            <td>Inicia una shell interactiva de Python con acceso al proyecto.</td>
+        </tr>
+        <tr>
+            <td>python manage.py test</td>
+            <td>Ejecuta las pruebas unitarias de la aplicación.</td>
+        </tr>
+        <tr>
+            <td>python manage.py collectstatic</td>
+            <td>Recopila archivos estáticos en una ubicación central.</td>
+        </tr>
+        <tr>
+            <td>python manage.py flush</td>
+            <td>Elimina todos los datos de la base de datos.</td>
+        </tr>
+        <tr>
+            <td>python manage.py dumpdata</td>
+            <td>Exporta datos de la base de datos en formato JSON o YAML.</td>
+        </tr>
+        <tr>
+            <td>python manage.py loaddata</td>
+            <td>Carga datos en la base de datos desde un archivo.</td>
+        </tr>
+        <tr>
+            <td>python manage.py showmigrations</td>
+            <td>Lista todas las migraciones y su estado.</td>
+        </tr>
+        <tr>
+            <td>python manage.py check</td>
+            <td>Verifica el proyecto en busca de problemas de configuración y código.</td>
+        </tr>
+        <tr>
+            <td>python manage.py changepassword &lt;nombre_de_usuario&gt;</td>
+            <td>Cambia la contraseña de un usuario.</td>
+        </tr>
+        <tr>
+            <td>python manage.py createsuperuser</td>
+            <td>Crea un superusuario interactivo.</td>
+        </tr>
+        <tr>
+            <td>python manage.py shell_plus</td>
+            <td>Inicia una shell interactiva con funcionalidad adicional proporcionada por la extensión "django-extensions."</td>
+        </tr>
+        <tr>
+            <td>python manage.py runserver &lt;puerto&gt;</td>
+            <td>Inicia el servidor de desarrollo en un puerto específico.</td>
+        </tr>
+        <tr>
+            <td>python manage.py dbshell</td>
+            <td>Accede a la línea de comandos de la base de datos.</td>
+        </tr>
+    </table>
+</body>
+</html>
